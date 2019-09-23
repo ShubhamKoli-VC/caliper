@@ -13,7 +13,7 @@ This directory contains a sample __Fabric v1.4.1__ network with the following pr
 * A sample chaincode is installed and instantiated. See the [configuration section](#platform-configurations) for details.
 
 ## Communication protocol
-* The `docker-compose-tls.yaml` file specifies a network __with TLS__ communication.
+* The `docker-swarm-compose-tls.yaml` file specifies a network __with TLS__ communication.
 
 The configuration files names (with or without the `-tls` part) indicate which network type it relies on. They are not distinguished further in the next sections.
 

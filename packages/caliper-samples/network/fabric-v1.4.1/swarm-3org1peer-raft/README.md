@@ -52,6 +52,14 @@ Copy the given command (`docker swarm join --token xxxxxxxxxxxxx IP:2377`) and r
 ```
 Repeat the same process for as many nodes as you want to run your Caliper benchmark on.
 
+** Important: All the hosts should have the caliper repo in the same directory as the HOST1. This is how the system gets access to the crypto material.
+For example:
+
+```sh
+#home/HOST1/caliper/packages/caliper-samples/network/fabric-v1.4.1/swarm-3org1peer-raft/
+#home/HOST2/caliper/packages/caliper-samples/network/fabric-v1.4.1/swarm-3org1peer-raft/
+#home/HOST3/caliper/packages/caliper-samples/network/fabric-v1.4.1/swarm-3org1peer-raft/
+```
 
 ## 3- Check the Swarm Status
 On HOST1 which is the swarm manager run the following command and this will give you a list of the hosts in the Swarm:

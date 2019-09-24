@@ -42,10 +42,10 @@ You should see this as the output:
 # To add a worker to this swarm, run the following command:
 #    docker swarm join --token xxxxxxxxxxxxx IP:2377
 ```
-Now your Host1 is joined the swarm as a manager. 
+Now your Host1 has joined the swarm as a manager. 
 ## 2- Join other hosts to the swarm
 
-Copy the given command (`docker swarm join --token xxxxxxxxxxxxx IP:2377`) and run it on the othr hosts:
+Copy the given command (`docker swarm join --token xxxxxxxxxxxxx IP:2377`) and run it on the other hosts:
 
 ```sh
 # This node joined a swarm as a worker.
